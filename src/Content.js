@@ -1,4 +1,5 @@
-const Content=()=> {
+const Content=() => {
+    
     const handleName= function() {
         const names=['Ivan','Pesho','Gosho']
         const randonName=Math.floor(Math.random()*names.length);
@@ -6,7 +7,7 @@ const Content=()=> {
       }    
     
     return (
-       <p>Hello {handleName}!</p>
+       <p>Hello {handleName()}!</p>
     )
 }
 
